@@ -12,7 +12,7 @@ function Footer() {
         <LinkedIn />
         <GitHub />
       </div>
-      <p> &copy; 2022 JakeTodoroki.com</p>
+      <p> &copy; 2023 JakeTodoroki.com</p>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Email } from '@mui/icons-material'
 import { LinkedIn } from '@mui/icons-material'
 import { GitHub } from '@mui/icons-material'
@@ -13,7 +14,8 @@ function Home() {
           <p> 
             An ambitious software developer from Denver, Colorado.
           </p>
-          <Email />
+          <Email>
+          </Email>
           <LinkedIn />
           <GitHub />
         </div>
