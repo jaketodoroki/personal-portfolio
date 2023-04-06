@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Email } from '@mui/icons-material'
-import { LinkedIn } from '@mui/icons-material'
-import { GitHub } from '@mui/icons-material'
 import '../styles/Home.css'
+import Socials from '../components/Socials'
 
 function Home() {
+  // const handlePageChange() {
+  //   window.location.href="pagelink"
+  //   }
   return (
     <div className='home'>
       <div className='about'>
@@ -14,10 +14,9 @@ function Home() {
           <p> 
             An ambitious software developer from Denver, Colorado.
           </p>
-          <Email>
-          </Email>
-          <LinkedIn />
-          <GitHub />
+          <div className='info-links'>
+            <Socials />
+          </div>
         </div>
       </div>
       <div className='skills'> 
